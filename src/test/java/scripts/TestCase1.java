@@ -3,6 +3,7 @@ package scripts;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import genriclib.BaseClass;
@@ -20,6 +21,7 @@ public class TestCase1 extends BaseClass
 		c1.enterUsername(pdata.getdata("username"));
 		c1.enterPassword(pdata.getdata("password"));
 		c1.signInButtonClick();
+		Reporter.log("hdsjasjkasbkxj",true);
 		
 	}
 
